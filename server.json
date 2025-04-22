@@ -23,6 +23,46 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2025-04-22T07:48:31.486Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2025-04-22T14:10:50.190Z",
+      "id": 4
+    },
+    {
+      "description": "Mercado",
+      "price": 499,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2025-04-22T14:21:00.156Z",
+      "id": 5
+    },
+    {
+      "description": "teste",
+      "price": 12,
+      "category": "any",
+      "type": "outcome",
+      "createdAt": "2025-04-22T14:22:18.962Z",
+      "id": 6
+    },
+    {
+      "description": "teste 2",
+      "price": 12,
+      "category": "any",
+      "type": "outcome",
+      "createdAt": "2025-04-22T14:23:15.416Z",
+      "id": 7
+    },
+    {
+      "description": "Academia",
+      "price": 79,
+      "category": "Assinaturas",
+      "type": "outcome",
+      "createdAt": "2025-04-22T14:28:28.581Z",
+      "id": 8
     }
   ]
 }
