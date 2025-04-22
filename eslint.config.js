@@ -26,6 +26,7 @@ export default tseslint
           { allowConstantExport: true },
         ],
         "@typescript-eslint/no-empty-object-type": "off",
+        "react-refresh/only-export-components": "off",
       },
     },
   )
