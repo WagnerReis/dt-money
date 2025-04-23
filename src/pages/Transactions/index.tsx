@@ -10,7 +10,7 @@ import {
 } from "./styles";
 
 export function Transaction() {
-  const { transactions } = useTransactions();
+  const transactions = useTransactions((context) => context.transactions);
 
   return (
     <div>

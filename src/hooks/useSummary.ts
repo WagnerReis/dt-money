@@ -1,7 +1,7 @@
 import { useTransactions } from "./useTransactions";
 
 export function useSummary() {
-  const { transactions } = useTransactions();
+  const transactions = useTransactions((context) => context.transactions);
 
   const summary = transactions.reduce(
     (acc, transaction) => {

@@ -35,7 +35,9 @@ export function NewTransactionModal() {
     },
   });
 
-  const { createTransaction } = useTransactions();
+  const createTransaction = useTransactions(
+    (context) => context.createTransaction,
+  );
 
   async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
     const { description, price, category, type } = data;
